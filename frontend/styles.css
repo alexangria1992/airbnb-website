@@ -1,0 +1,12 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "helvetica", "Plus Jakarta Sans", "inter", "poppins", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
