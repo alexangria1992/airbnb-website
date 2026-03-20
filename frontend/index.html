@@ -7,6 +7,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="navigation">
+        <div class="container">
+          <div class="nav-content">
+            <img src="assets/images/logo.png" alt="" class="logo-image" />
+            <div class="search-container transition">
+              <div class="search-wrapper">
+                <div class="search-text__anywhere">Anywhere</div>
+                <div class="search-text__week">Any week</div>
+                <div class="search-text__add-guests">
+                  <div class="search-text__guests">Add guests</div>
+                  <div class="search-icon__wrapper">
+                    <i data-lucide="search" class="search-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user-menu__container">
+              <div class="user-menu__wrapper">
+                <div class="user-menu__text transition">Airbnb your home</div>
+                <div class="user-menu__button transition">
+                  <i data-lucide="menu" class="menu-icon"></i>
+                  <div class="user-menu__avatar">
+                    <img
+                      src="/frontend/assets/images/placeholder.jpg"
+                      class="avatar-image"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="user-menu__dropdown hidden">
+                  <div class="user-menu__menu-item-wrapper">
+                    <div class="menu-item transition" id="login-item">
+                      Login
+                    </div>
+                    <div class="menu-item transition" id="signup-item">
+                      Sign up
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="app.js"></script>
   </body>
 </html>
