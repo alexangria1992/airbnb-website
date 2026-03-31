@@ -353,6 +353,12 @@ body,
   gap: 16px;
 }
 
+.login-modal__body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .heading__title {
   font-weight: 700;
   font-size: 24px;
@@ -545,7 +551,20 @@ body,
   margin-top: 8px;
 }
 
+.login-modal__footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
 .register-modal__footer-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 0;
+}
+
+.login-modal__footer-divider {
   border: none;
   border-top: 1px solid #e5e7eb;
   margin: 0;
@@ -555,6 +574,17 @@ body,
 }
 
 .register-modal__bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.login-modal__bottom-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -579,9 +609,28 @@ body,
   padding: 0;
 }
 
+.login-modal__bottom-muted {
+  color: #737373;
+}
+
 .register-modal__login-link:hover {
   text-decoration: underline;
 }
+
+.login-modal__login-link {
+  border: none;
+  background: transparent;
+  color: #262626;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0;
+}
+
+.login-modal__login-link:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 640px) {
   .search-text__week {
     display: block;
